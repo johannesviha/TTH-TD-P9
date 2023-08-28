@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #333;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #111;
+        }
+        .navbar-brand {
+            color: white;
+        }
+        .navbar-toggler-icon {
+            background-color: white;
+        }
+        .portfolio-item {
+            margin-bottom: 30px;
+            border: 1px solid #555;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #222;
+        }
+        .project-description {
+            margin-top: 10px;
+        }
+        .contact-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .contact-section p {
+            margin: 5px;
+        }
+        .contact-link {
+            color: white;
+            text-decoration: none;
+        }
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#" style="color: white;">Johannes Erik Hermanni Vihavainen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5" id="portfolio">
+        <h2 class="mb-4">Portfolio</h2>
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <a href="#"><img src="img/employee_overlay.png" alt="Project 1" class="img-fluid"></a>
+                <h4>Project 1</h4>
+                <p class="project-description">A responsive employee management web app. Built with HTML, CSS, JavaScript.</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="#"><img src="img/gallery_mockup.png" alt="Project 2" class="img-fluid"></a>
+                <h4>Project 2</h4>
+                <p class="project-description">An interactive image gallery using jQuery for smooth transitions and filtering.</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="#"><img src="img/Webapp.png" alt="Project 3" class="img-fluid"></a>
+                <h4>Project 3</h4>
+                <p class="project-description">A dynamic web app using React for creating and managing tasks.</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="#"><img src="img/online_form.png" alt="Project 4" class="img-fluid"></a>
+                <h4>Project 4</h4>
+                <p class="project-description">A form app built with Vue.js for collecting and processing user data.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid contact-section" id="contact">
+        <h2>Contact</h2>
+        <p><a href="tel:9719017721" class="contact-link">Cell: 971-901-7721</a></p>
+        <p><a href="mailto:johannesvihavainen@outlook.com" class="contact-link">Email: johannesvihavainen@outlook.com</a></p>
+        <p><a href="https://www.linkedin.com/in/johannes-vihavainen/" class="contact-link">LinkedIn</a></p>
+        <p><a href="https://linktr.ee/youngchefjoe" class="contact-link">Linktr.ee</a></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
